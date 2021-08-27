@@ -1,0 +1,59 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: 12px 12px 12px 12px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.title{
+    font-size: 22px;
+}
+
+.card{
+    display: flex;
+    background-color: aliceblue;
+    padding: 52px 32px 52px 32px;
+    border: 1px black solid;
+    border-left: 4px blue solid;
+    flex-direction:column;
+    margin: 12px 12px 12px 12px;
+}
+
+input{
+    height: 20px;
+    margin: 12px 0 12px 0;
+    border-radius: 2px;
+}
+
+button{
+    padding: 12px;
+}
+
+table{
+    border: 2px gainsboro solid;
+}
+
+caption{
+    font-size: medium;
+    font-weight: bolder;
+
+}
+
+tr{
+    border: 4px rgb(24, 23, 23) solid;
+    padding: 12;
+}
+td{
+    border: 2px gainsboro solid;
+    
+    padding: 22px 12px 12px 12px;
+      
+}
+
+.red{
+    color: white;
+    padding: 5px 5px 5px 5px;
+    background-color: rgb(235, 42, 42);
+}
